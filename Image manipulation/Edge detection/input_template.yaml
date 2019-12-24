@@ -1,0 +1,10 @@
+defaultTimeOut: 1000
+kernelOption: [forceRun]
+runOption:
+- run: {numOfRuns: %N , fi_type: AutoInjection}
+compileOption:
+  instSelMethod:
+  - customInstselector:
+      include: %M
+  regSelMethod: customregselector
+  customRegSelector: Automatic

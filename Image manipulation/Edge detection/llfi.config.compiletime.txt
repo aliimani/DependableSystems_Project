@@ -1,0 +1,4 @@
+failure_class=Data
+failure_mode=DataCorruption
+targets=all-call-instructions
+injector=BitCorruptionInjector
